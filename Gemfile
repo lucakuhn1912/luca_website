@@ -12,5 +12,7 @@ gem "middleman-minify-html"
 gem "neat"
 gem "redcarpet"
 gem "sassc"
-gem 'font-awesome-sass', '~> 5.6.1'
-gem 'bootstrap', '~> 4.3.1'
+gem 'font-awesome-sass'
+gem 'bootstrap-sass'
+gem 'middleman-sprockets'
+gem 'middleman-bootstrap-navbar'
