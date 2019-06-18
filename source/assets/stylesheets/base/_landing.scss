@@ -1,34 +1,35 @@
-#page {
-  display: flex;
-  flex-direction: row;
-}
 
-#left_side {
-  position: absolute;
-  flex-grow: 1;
-}
-
-#left_text {
+#left-side {
+  width: 50%;
   position: relative;
-  bottom: 80vh;
-  left: 200px;
 }
 
-#right_side {
+#left-text {
   position: absolute;
-  flex-grow: 1;
+  bottom: 50vh;
+  right: 10px;
 }
 
-#right_text {
+#right-side {
+  width: 50%;
   position: relative;
-  bottom: 80vh;
-  left:10px;
 }
 
-#full_name {
+#right-text {
+  position: absolute;
+  bottom: 40vh;
+  left: 10px;
+}
+
+#first-name {
   font-size: 40px;
+  color: white;
+  font-weight: lighter;
 }
 
-#first_name {
-  color: white;
+#last-name {
+  font-size: 40px;
+  color: $light-grey;
+  font-weight: lighter;
 }
+
