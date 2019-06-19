@@ -1,2 +1,2 @@
-require './sources/layouts/layout.erb'
+require './source/layouts/layout.erb'
 run Middleman::Application
