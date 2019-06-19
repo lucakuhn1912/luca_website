@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "2.6.2"
+ruby "2.5.3"
 
 gem "bourbon"
 gem "builder"
@@ -16,3 +16,4 @@ gem 'font-awesome-sass'
 gem 'bootstrap-sass'
 gem 'middleman-sprockets'
 gem 'middleman-bootstrap-navbar'
+gem 'rack'
