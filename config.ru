@@ -1,2 +1,2 @@
 require './sources/layouts/layout.erb'
-run Sinatra::Application
+run Middleman::Application
